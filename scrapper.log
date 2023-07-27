@@ -5386,3 +5386,19 @@ INFO:root:log my final result []
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [27/Jul/2023 23:50:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [27/Jul/2023 23:50:40] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [27/Jul/2023 23:50:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iPhone12', 'Name': 'Arjun  Chakravarti ', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Awesome'}, {'Product': 'iPhone12', 'Name': 'Najir  Hussain ', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Awesome camera quality…just love it'}, {'Product': 'iPhone12', 'Name': 'Rupesh Thik', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Awesome Camera'}, {'Product': 'iPhone12', 'Name': 'Shivam Thakur', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'I am very happy with I phone 12Very Nice Product Thanku Flipkart'}, {'Product': 'iPhone12', 'Name': 'Sibsankar Das', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Camera quality is just fabulous. Interface is very smooth.  Good for photography and videography.'}, {'Product': 'iPhone12', 'Name': 'Jaya chandra  Reddy', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Amazing phone  In love with this phone'}, {'Product': 'iPhone12', 'Name': 'Sivaramaraju Raju', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Best iPhone till date 💕'}, {'Product': 'iPhone12', 'Name': 'Manoj Kumar ', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Super'}, {'Product': 'iPhone12', 'Name': 'Shivam Kengale', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Go for it'}, {'Product': 'iPhone12', 'Name': 'Flipkart Customer', 'Rating': '4', 'CommentHead': 'Good quality product', 'Comment': 'Everything is great except the battery life, camera is awesome'}, {'Product': 'iPhone12', 'Name': 'Flipkart Customer', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Everything is great except the battery life, camera is awesome'}]
+INFO:werkzeug:172.18.0.2 - - [27/Jul/2023 23:50:44] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [27/Jul/2023 23:50:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [27/Jul/2023 23:50:44] "[33mGET /style.css HTTP/1.1[0m" 404 -
